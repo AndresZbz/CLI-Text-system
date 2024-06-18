@@ -2,8 +2,15 @@
 
 Simple try of a C++ CLI text system.
 
-You can use this for different type of projects. Currently uses variables for the texts, still making a better text loading system.
-
-I think this works for any SO. I use Windows so I can't really tell.
+To read texts you need a csv file where in the A column you can write the text you want in any row, then when you call the function write the row of the text you wanna display.
 
 It's not perfect but it works xD.
+
+## Running it
+
+You will need a C++ compiler, in my case I use g++. then use
+```bash
+g++ main.cpp -o main
+```
+
+after compiling it just use ```./main```
